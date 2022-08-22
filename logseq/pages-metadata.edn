@@ -7,9 +7,6 @@
  {:block/name "algorithm/dijkstra",
   :block/created-at 1661132557064,
   :block/updated-at 1661132557064}
- {:block/name "aug 22nd, 2022",
-  :block/created-at 1661132557388,
-  :block/updated-at 1661132557388}
  {:block/name "b",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
