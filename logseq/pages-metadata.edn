@@ -34,6 +34,9 @@
  {:block/name "code snippets/c++",
   :block/created-at 1661132557163,
   :block/updated-at 1661132557163}
+ {:block/name "code snippets/cmake",
+  :block/created-at 1661154812087,
+  :block/updated-at 1661154812087}
  {:block/name "code snippets/go",
   :block/created-at 1661132557197,
   :block/updated-at 1661132557197}
@@ -66,7 +69,7 @@
   :block/updated-at 1661132579103}
  {:block/name "readme",
   :block/created-at 1661132556999,
-  :block/updated-at 1661132556999}
+  :block/updated-at 1661154918110}
  {:block/name "template",
   :block/created-at 1661132918959,
   :block/updated-at 1661133049654}

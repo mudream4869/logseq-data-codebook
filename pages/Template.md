@@ -1,2 +1,1 @@
 - Use in **coding competition**.
--
