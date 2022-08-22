@@ -1,3 +1,4 @@
+public:: true
 title:: Code Snippets/C++
 
 - ## Memory Usage

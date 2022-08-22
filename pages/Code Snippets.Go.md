@@ -1,3 +1,4 @@
+public:: true
 title:: Code Snippets/Go
 
 - ## Stdin

@@ -1,3 +1,4 @@
+public:: true
 title:: Algorithm/Dijkstra
 
 - # 2D Grid
@@ -7,7 +8,10 @@ title:: Algorithm/Dijkstra
 	- ## Trick
 		- `pair<A, B>` has implement comparer if A and B is comparable
 		- With specific comparer, priority_queue will pop min element: `priority_queue<T, vector<T>, greater<T>>`
-		- `stdc++17: auto [x, y] = pair/[2]int;`
+		- stdc++17:
+			- ```cpp
+			  auto [x, y] = pair/[2]int;
+			  ```
 	- ## Code
 		- [Leetcode: 2290. Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)
 		- ```cpp

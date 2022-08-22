@@ -1,3 +1,4 @@
+public:: true
 title:: Template/Codeforces
 
 - Template for making coding in codeforces' competition faster.
