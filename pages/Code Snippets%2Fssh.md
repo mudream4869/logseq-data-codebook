@@ -1,4 +1,3 @@
-public:: true
 title:: Code Snippets/ssh
 
 - Disable root login

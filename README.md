@@ -1,1 +1,3 @@
-# logseq-data-codebook
+- [[Template]]: Use in **coding competition**.
+- [[Algorithm]]: Here will be some algorithms and data structures.
+- [[Code Snippets]]: Some frequently doing things...

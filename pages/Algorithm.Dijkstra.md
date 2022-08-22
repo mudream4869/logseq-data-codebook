@@ -1,4 +1,3 @@
-public:: true
 title:: Algorithm/Dijkstra
 
 - # 2D Grid

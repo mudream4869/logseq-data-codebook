@@ -1,4 +1,3 @@
-public:: true
 title:: Code Snippets/Bash
 
 - Find and Replace in file:

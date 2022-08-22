@@ -1,4 +1,3 @@
-public:: true
 title:: Code Snippets/C++
 
 - ## Memory Usage
@@ -45,4 +44,20 @@ title:: Code Snippets/C++
 	      // line
 	  }
 	  ```
--
+- ## Read File Content
+	- ```cpp
+	  std::string getFileString(const std::string filename) {
+	      std::ifstream ifs(filename);
+	      return std::string((std::istreambuf_iterator<char>(ifs)),
+	                         (std::istreambuf_iterator<char>()));
+	  }
+	  ```
+- ## Timing
+	- ```cpp
+	  auto t1 = std::chrono::high_resolution_clock::now();
+	  // func();
+	  auto t2 = std::chrono::high_resolution_clock::now();
+	  double totalSeconds =
+	          std::chrono::duration_cast<std::chrono::duration<double>>(t2 - t1)
+	              .count();
+	  ```
