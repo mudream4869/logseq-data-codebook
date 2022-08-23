@@ -61,3 +61,18 @@ title:: Code Snippets/C++
 	          std::chrono::duration_cast<std::chrono::duration<double>>(t2 - t1)
 	              .count();
 	  ```
+- ## Write Values
+	- ```cpp
+	  void writeValues(const std::string& filename,
+	                   const std::vector<uint64_t>& values) {
+	      std::ofstream fp;
+	      fp.open(filename);
+	      if (!fp) {
+	          throw std::runtime_error(filename + " open error");
+	      }
+	  
+	      for (const auto& v : values) {
+	          fp << v << std::endl;
+	      }
+	  }
+	  ```

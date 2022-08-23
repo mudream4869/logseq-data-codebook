@@ -1,0 +1,17 @@
+- ## Optimize
+	- ### x86 vs x86-64 vs x64
+		- [https://www.ithome.com.tw/tech/56880](https://www.ithome.com.tw/tech/56880)
+		- x86-64 = x64 -> 64bits
+		- x86 names from **Intel 8086**, refer to old 32bits processors
+	- ### `string_view` analysis
+		- [https://quuxplusone.github.io/blog/2021/11/09/pass-string-view-by-value/](https://quuxplusone.github.io/blog/2021/11/09/pass-string-view-by-value/)
+		- Analysis by asm
+	- ### Godbolt: compiler explorer
+		- [https://godbolt.org/](https://godbolt.org/)
+		- A tool to observe how asm generate from code over different platform
+	- ### Intel vs AT&T
+		- AT&T is even more obscure than Intel
+		- [https://staffwww.fullcoll.edu/aclifton/courses/cs241/syntax.html](https://staffwww.fullcoll.edu/aclifton/courses/cs241/syntax.html)
+	- ### Reference
+		- [http://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf](http://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)
+		- [https://www.cnblogs.com/lsgxeva/p/11176000.html](https://www.cnblogs.com/lsgxeva/p/11176000.html)
