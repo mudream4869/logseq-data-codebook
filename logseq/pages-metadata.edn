@@ -27,7 +27,7 @@
   :block/updated-at 1661132557165}
  {:block/name "code snippets/bash",
   :block/created-at 1661132648556,
-  :block/updated-at 1661132734367}
+  :block/updated-at 1661228321048}
  {:block/name "code snippets/c++",
   :block/created-at 1661132557163,
   :block/updated-at 1661132557163}
@@ -61,12 +61,15 @@
  {:block/name "later",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
+ {:block/name "note of code",
+  :block/created-at 1661132556999,
+  :block/updated-at 1661223447401}
  {:block/name "now",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
  {:block/name "readme",
-  :block/created-at 1661132556999,
-  :block/updated-at 1661154918110}
+  :block/created-at 1661222696214,
+  :block/updated-at 1661236270259}
  {:block/name "template",
   :block/created-at 1661132918959,
   :block/updated-at 1661133049654}

@@ -1,3 +1,3 @@
-- [[Template]]: Use in **coding competition**.
-- [[Algorithm]]: Here will be some algorithms and data structures.
-- [[Code Snippets]]: Some frequently doing things...
+# Note of Code
+
+➡️  https://blog.mukyu.tw/note-of-code/

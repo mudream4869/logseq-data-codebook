@@ -20,4 +20,7 @@ title:: Code Snippets/Bash
 	- ```bash
 	  tar zcvf {tar filename} {dir}
 	  ```
--
+- Page Size
+	- ```bash
+	  getconf PAGESIZE
+	  ```

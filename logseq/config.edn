@@ -13,7 +13,7 @@
 
  ;; The app will ignore those directories or files.
  ;; E.g. "/archived" "/test.md"
- :hidden []
+ :hidden ["/README.md"]
 
  ;; When creating the new journal page, the app will use your template if there is one.
  ;; You only need to input your template name here.
@@ -175,7 +175,8 @@
  :favorites ["Template" "Algorithm" "Code Snippets"]
  :publishing/all-pages-public? true
  :feature/enable-journals? false
- :default-home {:page "README"}
+ :default-home {:page "Note of Code"}
+ :feature/enable-flashcards? false
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
