@@ -22,6 +22,9 @@
  {:block/name "card",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
+ {:block/name "cases",
+  :block/created-at 1661261044576,
+  :block/updated-at 1661263029571}
  {:block/name "code snippets",
   :block/created-at 1661132557165,
   :block/updated-at 1661132557165}
@@ -30,10 +33,13 @@
   :block/updated-at 1661228321048}
  {:block/name "code snippets/c++",
   :block/created-at 1661132557163,
-  :block/updated-at 1661132557163}
+  :block/updated-at 1661260459992}
  {:block/name "code snippets/cmake",
   :block/created-at 1661154812087,
   :block/updated-at 1661154812087}
+ {:block/name "code snippets/git",
+  :block/created-at 1661261516362,
+  :block/updated-at 1661262458392}
  {:block/name "code snippets/go",
   :block/created-at 1661132557197,
   :block/updated-at 1661132557197}
@@ -43,6 +49,12 @@
  {:block/name "code snippets/ssh",
   :block/created-at 1661132778391,
   :block/updated-at 1661132829668}
+ {:block/name "code snippets/vim",
+  :block/created-at 1661261563356,
+  :block/updated-at 1661261602821}
+ {:block/name "compiler",
+  :block/created-at 1661260509527,
+  :block/updated-at 1661260844780}
  {:block/name "contents",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
@@ -63,13 +75,13 @@
   :block/updated-at 1661132579103}
  {:block/name "note of code",
   :block/created-at 1661132556999,
-  :block/updated-at 1661223447401}
+  :block/updated-at 1661261062192}
  {:block/name "now",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
- {:block/name "readme",
-  :block/created-at 1661222696214,
-  :block/updated-at 1661236270259}
+ {:block/name "platform",
+  :block/created-at 1661261263056,
+  :block/updated-at 1661261263056}
  {:block/name "template",
   :block/created-at 1661132918959,
   :block/updated-at 1661133049654}
