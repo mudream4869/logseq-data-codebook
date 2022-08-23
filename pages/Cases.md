@@ -1,5 +1,6 @@
 - ## Make a boot USB
   collapsed:: true
+	- platform:: mac
 	- Step1: Insert USB
 	- Step2: Find index of your USB
 	  ```bash
@@ -28,7 +29,7 @@
 	  Please pip install hvac to use the hashi_vault lookup module.
 	  ```
 	- Please check Ansible's python environment:
-	  ```
+	  ```bash
 	  ansible -m debug -a 'var=ansible_playbook_python' localhost
 	  ```
 	- The terminal will show the path of Ansible's env:
@@ -38,7 +39,7 @@
 	  }
 	  ```
 	- Pip install!
-	  ```
+	  ```bash
 	  source /usr/local/Celler/ansible/2.6.0/libexec/bin/activate
 	  pip install hvac
 	  ```
