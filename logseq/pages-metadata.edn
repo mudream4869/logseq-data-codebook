@@ -30,7 +30,7 @@
   :block/updated-at 1661132557165}
  {:block/name "code snippets/bash",
   :block/created-at 1661132648556,
-  :block/updated-at 1661228321048}
+  :block/updated-at 1661312367354}
  {:block/name "code snippets/c++",
   :block/created-at 1661132557163,
   :block/updated-at 1661260459992}
@@ -82,6 +82,9 @@
  {:block/name "platform",
   :block/created-at 1661261263056,
   :block/updated-at 1661261263056}
+ {:block/name "readme",
+  :block/created-at 1661222696214,
+  :block/updated-at 1661236270259}
  {:block/name "template",
   :block/created-at 1661132918959,
   :block/updated-at 1661133049654}

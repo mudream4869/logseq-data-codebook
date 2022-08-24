@@ -24,3 +24,8 @@ title:: Code Snippets/Bash
 	- ```bash
 	  getconf PAGESIZE
 	  ```
+- CPU Info
+	- ```bash
+	  lscpu
+	  ```
+-
