@@ -28,4 +28,8 @@ title:: Code Snippets/Bash
 	- ```bash
 	  lscpu
 	  ```
--
+- Get OOM Log
+	- Source: [Finding which process was killed by Linux OOM killer](https://stackoverflow.com/questions/624857/finding-which-process-was-killed-by-linux-oom-killer)
+	- ```bash
+	  dmesg -T | egrep -i 'killed process'
+	  ```

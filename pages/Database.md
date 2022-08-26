@@ -1,0 +1,19 @@
+- # ACID
+	- ## Atomic
+		- Every transaction should be done or never do. No mid-state.
+	- ## Consistency
+		- States should be always OK.
+	- ## Isolation
+	- ## Durability
+		- Data never loss.
+		- Example implementation: Write-ahead logging
+- # Lock
+	- To sync between transactions, we need **lock**.
+	- ## Optimistic Concurrency Control (OCC)
+		- Core: We **seldom** need to sync. Do remedies (ex: retry?) after conflicts occur.
+		- Example: version control systems like Git/SVN ...
+		- Implement:
+			- [[Algorithm/Lock/CAS]]
+			- [[Algorithm/Lock/RedLock]]
+	- ## Pessimistic Concurrency Control (PCC)
+		- Core: We **always** need to sync. Visit after lock.
