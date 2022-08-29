@@ -1,0 +1,18 @@
+- # Open System Interconnection (OSI 7 Layers)
+	- Well, this model is too strict. Sometimes we cannot map a protocol exactly to a layer.
+	- ## (1) Physical Layer
+		- Hardware
+	- ## (2) Data-Link Layer
+		- ex:
+			- Point-to-Point Protocol (PPP)
+			- ADSL = PPP over Ethernet = PPPoE
+	- ## (3) Network Layer
+		- ex: IP
+	- ## (4) Transport Layer
+		- ex: TCP, UDP
+	- ## (5) Session Layer
+		- Socket
+	- ## (6) Presentation Layer
+		- ex: UTF-8, ASCII
+	- ## (7) Application Layer
+		- ex: HTTP, HTTPS, FTP, SSH ...
