@@ -1,0 +1,2 @@
+- # Tips
+	- When dealing with large files (ex: > 10G), prevent **Spotlight** from indexing it.

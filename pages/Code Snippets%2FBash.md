@@ -33,3 +33,13 @@ title:: Code Snippets/Bash
 	- ```bash
 	  dmesg -T | egrep -i 'killed process'
 	  ```
+- Replace strings in a file
+	- Source: [How to replace a string in multiple files in linux command line](https://stackoverflow.com/questions/11392478/how-to-replace-a-string-in-multiple-files-in-linux-command-line)
+	- Mac
+		- ```bash
+		  sed -i '.bak' 's/foo/bar/g' *
+		  ```
+	- Linux
+		- ```bash
+		  sed -i 's/foo/bar/g' *
+		  ```
