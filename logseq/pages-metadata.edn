@@ -39,7 +39,7 @@
   :block/updated-at 1661132557165}
  {:block/name "code snippets/bash",
   :block/created-at 1661132648556,
-  :block/updated-at 1661422430847}
+  :block/updated-at 1661844913277}
  {:block/name "code snippets/c++",
   :block/created-at 1661132557163,
   :block/updated-at 1661260459992}
@@ -90,13 +90,16 @@
   :block/updated-at 1661744392262}
  {:block/name "linux/bpf and ebpf",
   :block/created-at 1661744413524,
-  :block/updated-at 1661754774539}
+  :block/updated-at 1661915947037}
+ {:block/name "mac",
+  :block/created-at 1661831257053,
+  :block/updated-at 1661831400870}
  {:block/name "network",
   :block/created-at 1661761584415,
   :block/updated-at 1661763042070}
  {:block/name "note of code",
   :block/created-at 1661132556999,
-  :block/updated-at 1661761596873}
+  :block/updated-at 1661831257054}
  {:block/name "now",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}

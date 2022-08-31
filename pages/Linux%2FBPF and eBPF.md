@@ -1,14 +1,13 @@
 title:: Linux/BPF and eBPF
 
-- ## 簡介
-	- 於 1992 年，Steven McCanne and Van Jacobson 提出的在 kernel 使用虛擬機過濾封包的方式。
-		- [https://www.tcpdump.org/papers/bpf-usenix93.pdf](https://www.tcpdump.org/papers/bpf-usenix93.pdf)
-	- 在 2013 年，Alexei Starovoitov 推出了 extend BPF = eBPF，並且稱以前的 BPF 為 classic BPF = cBPF。
+- ## Introduction
+	- In 1992, Steven McCanne and Van Jacobson propose filtering packet in kernel model using virtual machine.
+	- In 2013, Alexei Starovoitov propose extend BPF (=eBPF), and named BPF as classic BPF (=cBPF)
 - ## BPF
-	- 在 BPF 之前，假如要對封包進行過濾，需要從 kernel space **複製**所有封包到 user space，所以把過濾邏輯放在 kernel space 是一個很必要的處理。
-	- 這論文主要說了兩件事：
-		- 把 Filter 放到 kernel 確實可以更有效率
-		- 把 Filter 從 Tree Representation 轉成 CFG Representation 可以更不錯
+	- Before BPF, to filter packets, the process should **copy whole data** from kernel space to user space. Hence putting filtering process into kernel space is necessary.
+	- https://www.tcpdump.org/papers/bpf-usenix93.pdf
+		- Putting filter process into kernel mode is more efficient.
+		- Transfer filter from Tree Representation to CFG Representation is more efficient.
 - ## eBPF
 	- TODO eBPF
 - ## Reference

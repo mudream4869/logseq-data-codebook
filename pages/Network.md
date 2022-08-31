@@ -1,3 +1,14 @@
+- # History
+	- 196x: ARPANET borned.
+	- 197x: TCP/IP Protocol, Router borned.
+	- 198x:
+		- TCP/IP v4 (IPv4)
+		- .com/.gov/.edu
+	- 199x:
+		- IPv6 Proposal (need loooooooong time to migrate 🥲)
+		- WWW
+		- Windows
+		- Search Engine
 - # Open System Interconnection (OSI 7 Layers)
 	- Well, this model is too strict. Sometimes we cannot map a protocol exactly to a layer.
 	- ## (1) Physical Layer
@@ -16,3 +27,7 @@
 		- ex: UTF-8, ASCII
 	- ## (7) Application Layer
 		- ex: HTTP, HTTPS, FTP, SSH ...
+- # TCP/IP
+	- ![tcp-ip](../assets/image_1661931387685_0.png)
+- # Reference
+	- https://web.ntnu.edu.tw/~499700326/Internethistory.htm
