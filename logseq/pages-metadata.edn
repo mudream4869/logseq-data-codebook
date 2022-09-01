@@ -87,7 +87,7 @@
   :block/updated-at 1661132579103}
  {:block/name "linux",
   :block/created-at 1661744392262,
-  :block/updated-at 1661744392262}
+  :block/updated-at 1662024800276}
  {:block/name "linux/bpf and ebpf",
   :block/created-at 1661744413524,
   :block/updated-at 1661915947037}
@@ -96,7 +96,7 @@
   :block/updated-at 1661831400870}
  {:block/name "network",
   :block/created-at 1661761584415,
-  :block/updated-at 1661763042070}
+  :block/updated-at 1662021412046}
  {:block/name "note of code",
   :block/created-at 1661132556999,
   :block/updated-at 1661831257054}

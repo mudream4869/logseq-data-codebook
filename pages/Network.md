@@ -29,5 +29,28 @@
 		- ex: HTTP, HTTPS, FTP, SSH ...
 - # TCP/IP
 	- ![tcp-ip](../assets/image_1661931387685_0.png)
+- # IP Address
+	- Source:
+		- https://en.wikipedia.org/wiki/IP_address
+		- https://en.wikipedia.org/wiki/IPv4
+	- ## IPv4
+		- `[0-255].[0-255].[0-255].[0-255]`
+		- Private Address:
+			- `10.0.0.0/8`: 24 bits block
+			- `172.16.0.0/12`: 20 bits block
+			- `192.168.0.0/16`: 16 bits block, many home router use this as default.
+	- ## IPv6
+		- `ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff`
+		- According to [RFC 5952](https://www.rfc-editor.org/rfc/rfc5952.html#section-4.2.1), the shorten-form (compressed-form) can be unique if shorten by RFC 5952's rules:
+			- [4.2.1](https://www.rfc-editor.org/rfc/rfc5952.html#section-4.2.1).  Shorten as Much as Possible
+			- [4.2.3](https://www.rfc-editor.org/rfc/rfc5952.html#section-4.2.3).  Choice in Placement of `::`
+			- [4.3](https://www.rfc-editor.org/rfc/rfc5952.html#section-4.3).  Lowercase
+		- Zone ID
+			- `fe08:9012:3451::1234%1`
+			- Different network card can use different zone id: Two or more network cards in same device!
+	- ## CIDR
+		- **C**lassless **I**nter-**D**omain **R**outing
+		- A Method to efficiently classify IPs.
 - # Reference
 	- https://web.ntnu.edu.tw/~499700326/Internethistory.htm
+-
