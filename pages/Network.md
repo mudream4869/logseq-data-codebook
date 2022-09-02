@@ -2,10 +2,10 @@
 	- 196x: ARPANET borned.
 	- 197x: TCP/IP Protocol, Router borned.
 	- 198x:
-		- TCP/IP v4 (IPv4)
+		- TCP/IP v4 ([IPv4](((631053f0-eada-4f74-a8cd-8f9151642eb6))))
 		- .com/.gov/.edu
 	- 199x:
-		- IPv6 Proposal (need loooooooong time to migrate 🥲)
+		- [IPv6](((6310582c-624f-4e35-aead-768e07ba34a8))) Proposal (need loooooooong time to migrate 🥲)
 		- WWW
 		- Windows
 		- Search Engine
@@ -29,17 +29,25 @@
 		- ex: HTTP, HTTPS, FTP, SSH ...
 - # TCP/IP
 	- ![tcp-ip](../assets/image_1661931387685_0.png)
+	  card-last-score:: nil
+	  card-repeats:: 0
+	  card-next-schedule:: nil
+	  card-last-interval:: -1
+	  card-ease-factor:: 2.5
+	  card-last-reviewed:: nil
 - # IP Address
 	- Source:
 		- https://en.wikipedia.org/wiki/IP_address
 		- https://en.wikipedia.org/wiki/IPv4
 	- ## IPv4
+	  id:: 631053f0-eada-4f74-a8cd-8f9151642eb6
 		- `[0-255].[0-255].[0-255].[0-255]`
 		- Private Address:
 			- `10.0.0.0/8`: 24 bits block
 			- `172.16.0.0/12`: 20 bits block
 			- `192.168.0.0/16`: 16 bits block, many home router use this as default.
 	- ## IPv6
+	  id:: 6310582c-624f-4e35-aead-768e07ba34a8
 		- `ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff`
 		- According to [RFC 5952](https://www.rfc-editor.org/rfc/rfc5952.html#section-4.2.1), the shorten-form (compressed-form) can be unique if shorten by RFC 5952's rules:
 			- [4.2.1](https://www.rfc-editor.org/rfc/rfc5952.html#section-4.2.1).  Shorten as Much as Possible
