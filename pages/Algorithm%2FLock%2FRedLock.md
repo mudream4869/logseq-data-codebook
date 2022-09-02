@@ -7,3 +7,5 @@ title:: Algorithm/Lock/RedLock
   CLOCK: [2022-08-29 Mon 11:39:07]
   :END:
 -
+- # Reference
+	- [Distributed Locks with Redis](https://redis.io/docs/reference/patterns/distributed-locks/)

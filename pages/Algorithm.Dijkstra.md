@@ -1,5 +1,24 @@
 title:: Algorithm/Dijkstra
 
+- ![Dijkstra Animation](../assets/Dijkstra_Animation_1662087675535_0.gif)
+  Source: [wikimedia](https://commons.wikimedia.org/wiki/File:Dijkstra_Animation.gif)
+- # Pseudo Code
+	- **function** Dijkstra(Graph, weight, source) {
+	      Initial Distances Table (\inf if node \neq source else 0)
+	      S: Set()
+	      Q: Queue() Or something that help finding min distance
+	      Q.Push(source)
+	      **while** (!Q.Empty()) {
+	          u \leftarrow Find Min Dist in Queue
+	          S.Add(u)
+	          **for** v adj with u {
+	              Q.Push(v) if v need to relax
+	          }
+	      }
+	  }
+- # Note
+	- Negative weight may lead to multiple relax time on a same node.
+		- ![image.png](../assets/image_1662089213405_0.png)
 - # 2D Grid
 	- `point = pair<int, int>`
 	- `grid[x][y]` is cost of `(x, y)`
