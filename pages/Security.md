@@ -1,9 +1,32 @@
 icon:: 🛡️
 
 - ## Emergency
-	- Source: [**Linux应急笔记**](https://github.com/422926799/note/tree/master/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/Linux%E5%BA%94%E6%80%A5%E7%AC%94%E8%AE%B0)
-	- Check processes that CPU usages > 50%
-	- TODO Emergency in Security
+	- ### Source: [Linux应急笔记](https://github.com/422926799/note/tree/master/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/Linux%E5%BA%94%E6%80%A5%E7%AC%94%E8%AE%B0)
+		- Check Status
+			- Check processes that CPU usages > 50%
+			- Check weird command
+			- `htop` process tree
+			- Ex: miner process: `xmrig`
+		- Check Communicating IP/Host
+		- Remove Virus
+			- Crond Job
+			- `dpkg -S` to check if the executable is from package or not
+			- [Scan file](((63155aa2-1e4d-4f5c-888c-3929814d549d))) to check the binary file
+		- Periodic Scanning:
+			- TODO Maybe we can write a tool to record (git diff??)
+			- `service --status-all`
+			- `crontab -l`
+			- `cat /etc/anacrontab`
+			- `find /usr/bin/ /usr/sbin/ /bin/ /usr/local/bin/ -type f -mtime +7 | xargs ls -la`
+			- `lsmod`
 - ## Scan file
+  id:: 63155aa2-1e4d-4f5c-888c-3929814d549d
 	- https://github.com/VirusTotal
 	- https://www.virustotal.com/gui/home/upload
+- ## Privacy
+	- ### Anonymous
+		- [Tor]([[Security/Tor]])
+		- [Tails]([[Security/Tails]])
+	- ### Data
+		- [Proton Mail](https://proton.me/)
+		- [Filebrowser](https://github.com/filebrowser/filebrowser)
