@@ -112,6 +112,12 @@
  {:block/name "security",
   :block/created-at 1661486174790,
   :block/updated-at 1661486174790}
+ {:block/name "security/tails",
+  :block/created-at 1662369916954,
+  :block/updated-at 1662369916954}
+ {:block/name "security/tor",
+  :block/created-at 1662369916991,
+  :block/updated-at 1662369916991}
  {:block/name "template",
   :block/created-at 1661132918959,
   :block/updated-at 1661133049654}
