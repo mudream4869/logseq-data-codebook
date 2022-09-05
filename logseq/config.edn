@@ -172,7 +172,7 @@
  :ref/default-open-blocks-level 2
 
  :ref/linked-references-collapsed-threshold 50
- :favorites []
+ :favorites ["Note of Code"]
  :publishing/all-pages-public? true
  :feature/enable-journals? false
  :default-home {:page "Note of Code"}
