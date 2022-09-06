@@ -14,6 +14,7 @@ icon:: 📚
 	- [[Security]]: Some notes on security.
 	- [[Compiler]]: Some notes on the compiler.
 	- [[Database]]: Some notes on the database.
+	- [[System Design]]: Some notes on the System Design.
 - # Specific
 	- [[Mac]]
 - # [[TODO]]

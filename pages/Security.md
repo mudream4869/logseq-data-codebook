@@ -24,6 +24,8 @@ icon:: 🛡️
 	- https://github.com/VirusTotal
 	- https://www.virustotal.com/gui/home/upload
 - ## Privacy
+	- ### VPN
+		- [WireGuard]([[Security/WireGuard]])
 	- ### Anonymous
 		- [Tor]([[Security/Tor]])
 		- [Tails]([[Security/Tails]])

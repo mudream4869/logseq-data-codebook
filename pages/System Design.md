@@ -1,0 +1,8 @@
+- ## Scale Up vs Scale Out
+	- ### Scale Up
+		- Upgrade Single machine's resource. Ex: cpu, memory, disks ...
+		- ![image.png](../assets/image_1662448600194_0.png)
+	- ### Scale Out
+		- Add more machines.
+		- ![image.png](../assets/image_1662448679716_0.png)
+		-

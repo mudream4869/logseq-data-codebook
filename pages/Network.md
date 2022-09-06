@@ -45,6 +45,8 @@
 		- Private Address:
 			- `10.0.0.0/8`: 24 bits block
 			- `172.16.0.0/12`: 20 bits block
+				- Example:
+					- docker default subnet: `172.17.0.0/16`
 			- `192.168.0.0/16`: 16 bits block, many home router use this as default.
 	- ## IPv6
 	  id:: 6310582c-624f-4e35-aead-768e07ba34a8
