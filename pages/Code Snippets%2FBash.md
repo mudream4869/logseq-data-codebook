@@ -43,3 +43,8 @@ title:: Code Snippets/Bash
 		- ```bash
 		  sed -i 's/foo/bar/g' *
 		  ```
+- jq
+	- List the values of a field in json files under a folder
+		- ```bash
+		  jq -r '.field_name | select(.!=null)' *
+		  ```
