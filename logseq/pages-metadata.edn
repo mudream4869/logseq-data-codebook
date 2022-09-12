@@ -127,18 +127,12 @@
  {:block/name "security/wireguard",
   :block/created-at 1662452100325,
   :block/updated-at 1662452133092}
- {:block/name "sep 6th, 2022",
-  :block/created-at 1662451421890,
-  :block/updated-at 1662451421890}
  {:block/name "system design",
   :block/created-at 1662448407755,
   :block/updated-at 1662448680244}
  {:block/name "template",
   :block/created-at 1661132918959,
   :block/updated-at 1661133049654}
- {:block/name "template/codeforces",
-  :block/created-at 1661132918960,
-  :block/updated-at 1661132939503}
  {:block/name "todo",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
