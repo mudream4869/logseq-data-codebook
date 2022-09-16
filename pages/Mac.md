@@ -1,2 +1,7 @@
 - # Tips
 	- When dealing with large files (ex: > 10G), prevent **Spotlight** from indexing it.
+- # Know
+	- [Has my macOS Sierra system been infected by unknown users?](https://superuser.com/questions/1159758/has-my-macos-sierra-system-been-infected-by-unknown-users)
+	- Built-in user accounts
+		- `_applepay`: Apple Pay Daemon
+		- `_findmydevice`: Find My Mac Feature
