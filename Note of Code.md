@@ -16,6 +16,7 @@ icon:: 📚
 	- [[Database]]: Some notes on the database.
 	- [[System Design]]: Some notes on the System Design.
 	- [[Rendering]]
+	- [[Web3]]
 - # Specific
 	- [[Mac]]
 - # Links
