@@ -9,6 +9,8 @@
 		- WWW
 		- Windows
 		- Search Engine
+	- ## Ref
+		- https://web.ntnu.edu.tw/~499700326/Internethistory.htm
 - # Open System Interconnection (OSI 7 Layers)
 	- Well, this model is too strict. Sometimes we cannot map a protocol exactly to a layer.
 	- ## (1) Physical Layer
@@ -61,6 +63,11 @@
 	- ## CIDR
 		- **C**lassless **I**nter-**D**omain **R**outing
 		- A Method to efficiently classify IPs.
-- # Reference
-	- https://web.ntnu.edu.tw/~499700326/Internethistory.htm
--
+- # DNS
+	- Domain Name Service
+	- A service for mapping **Domain Name** to IP
+	- Records
+		- A (RFC 1035): Domain name -> IP
+		- AAAA (RFC 3596): Domain name -> IPv6
+		- CName (RFC 1035): Domain name alias
+		- NS: Using what DNS server.

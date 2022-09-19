@@ -19,6 +19,11 @@ icon:: 🛡️
 			- `cat /etc/anacrontab`
 			- `find /usr/bin/ /usr/sbin/ /bin/ /usr/local/bin/ -type f -mtime +7 | xargs ls -la`
 			- `lsmod`
+	- ### Note
+		- Check port
+			- ```bash
+			  sudo lsof -PiTCP -sTCP:LISTEN
+			  ```
 - ## Scan file
   id:: 63155aa2-1e4d-4f5c-888c-3929814d549d
 	- https://github.com/VirusTotal
