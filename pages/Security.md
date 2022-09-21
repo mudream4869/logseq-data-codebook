@@ -17,7 +17,7 @@ icon:: 🛡️
 			- `service --status-all`
 			- `crontab -l`
 			- `cat /etc/anacrontab`
-			- `find /usr/bin/ /usr/sbin/ /bin/ /usr/local/bin/ -type f -mtime +7 | xargs ls -la`
+			- `find /usr/bin/ /usr/sbin/ /bin/ /usr/local/bin/ -type f -mtime -7 | xargs ls -la`
 			- `lsmod`
 	- ### Note
 		- Check port
