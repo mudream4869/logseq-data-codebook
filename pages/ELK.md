@@ -1,0 +1,13 @@
+- ELK = Elastic Search + Logstash + Kibana
+- A log aggregate system.
+- ## Logstash
+	- Aggregate logs
+- ## Elastic Search
+	- Parallel Search Engine
+	- Alternative:
+		- [zinc](https://github.com/zinclabs/zinc)
+- ## Kibana
+	- Data viewer
+- ![elk.png](../assets/elk_1663841846362_0.png)
+- ## Reference
+	- [ELK環境建置與介紹](https://tw.coderbridge.com/series/545e9e62af2c4ab8a1b329fc5f07be34/posts/699c911877034837bba0a359bf310a40)

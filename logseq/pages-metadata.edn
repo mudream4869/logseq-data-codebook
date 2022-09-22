@@ -79,6 +79,9 @@
  {:block/name "done",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
+ {:block/name "elk",
+  :block/created-at 1663841525991,
+  :block/updated-at 1663841984177}
  {:block/name "favorites",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
@@ -102,16 +105,13 @@
   :block/updated-at 1663577175265}
  {:block/name "note of code",
   :block/created-at 1661132556999,
-  :block/updated-at 1663491284738}
+  :block/updated-at 1663841525992}
  {:block/name "now",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
  {:block/name "platform",
   :block/created-at 1661261263056,
   :block/updated-at 1661261263056}
- {:block/name "readme",
-  :block/created-at 1661222696214,
-  :block/updated-at 1661236270259}
  {:block/name "rendering",
   :block/created-at 1663725201116,
   :block/updated-at 1663725201116}
@@ -133,9 +133,6 @@
  {:block/name "template",
   :block/created-at 1661132918959,
   :block/updated-at 1663725627544}
- {:block/name "template/codeforces",
-  :block/created-at 1661132918960,
-  :block/updated-at 1661132939503}
  {:block/name "todo",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
