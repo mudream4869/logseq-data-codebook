@@ -5,4 +5,25 @@
 	- ### Scale Out
 		- Add more machines.
 		- ![image.png](../assets/image_1662448679716_0.png)
-		-
+- ## Deployment Strategies
+	- Source: [Intro to Deployment Strategies: Blue-Green, Canary, and More](https://harness.io/blog/blue-green-canary-deployment-strategies)
+	- ### The Basic Deployment
+		- Just deploy new version to all nodes.
+		- Pro: Simple, fast and cheap
+		- Con: *The Rickiest*
+		- Use this if the service
+			- 1. is not revenue-critical or
+			  2. has official off-hour
+	- ### Rolling Deployment
+		- Deploy new version to some nodes.
+		- Pro: Simple to rollback
+		- Con: Need to support old and new version.
+	- ### Blue-Green Deployment
+		- Prepare two enviroments: (Staging, Production). Swap them after deploy and test ok on staging.
+		- Pro:
+			- Simple, fast and cheap
+			- Easy to rollback
+		- Con:
+			- Costly
+	-
+	-

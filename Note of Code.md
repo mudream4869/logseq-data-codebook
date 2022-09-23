@@ -17,7 +17,7 @@ icon:: 📚
 	- [[System Design]]: Some notes on the System Design.
 	- [[Rendering]]
 	- [[Web3]]
-- # Specific
+- # MISC
 	- [[Mac]]
 	- [[ELK]]
 - # Links
