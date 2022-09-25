@@ -1,6 +1,7 @@
 - Use in **coding competition**.
-- Template for making coding in codeforces' competition faster.
+- Template for making coding in competitions faster.
 - ## Starter Template
+  collapsed:: true
 	- ```cpp
 	  #include <bits/stdc++.h>
 	  
@@ -18,6 +19,7 @@
 	  }
 	  ```
 - ## [KMP](((631ea11b-05e1-4a96-bb44-d609c67a35fe)))
+  collapsed:: true
 	- ```cpp
 	  // Morris Pratt: Find all mathing positions
 	  template <typename T>
@@ -55,6 +57,7 @@
 	  
 	  ```
 - ## Rolling Hash
+  collapsed:: true
 	- Hash string $(s_0, s_1, ... s_{n-1})$ to $(\sum_{i = 0}^{n-1} s_ix^{n-i-1}) \mod p$
 	- ```cpp
 	  template<typename T>
@@ -89,3 +92,36 @@
 	      vector<int64_t> xPow_;
 	  };
 	  ```
+- ## Range Modify Query (RMQ)
+	- ### zkw tree
+	  collapsed:: true
+		- Source: [統計的力量](https://www.slideshare.net/DanielChou/ss-7792670)
+		- ```cpp
+		  // modify in single point, sum a range
+		  struct ZKWTree {
+		      vector<int> data;
+		      int base;
+		      ZKWTree(int n) {
+		          base = 1 << __lg(n + 5) + 1;
+		          data = vector<int>(base << 1, 0);
+		      }
+		  
+		      void update(int x, int v) {
+		          ++x;  // 0-base to 1-base
+		          for (int i = x + base; i; i >>= 1) {
+		              data[i] += v;
+		          }
+		      }
+		  
+		      // [l, r]
+		      int query(int l, int r) {
+		          ++l, ++r;  // 0-base to 1-base
+		          int ans = 0;
+		          for (l += base - 1, r += base + 1; l ^ r ^ 1; l >>= 1, r >>= 1) {
+		              if (~l & 1) ans += data[l ^ 1];
+		              if (r & 1) ans += data[r ^ 1];
+		          }
+		          return ans;
+		      }
+		  };
+		  ```
