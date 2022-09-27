@@ -9,6 +9,7 @@ icon:: 📚
 	- [[Code Snippets]]: Some frequently doing things...
 	- [[Cases]]: Questions and answers.
 - # Region
+	- [[Operating System]]
 	- [[Linux]]: Some notes on Linux.
 	- [[Network]]: Some notes on Network.
 	- [[Security]]: Some notes on security.

@@ -105,10 +105,13 @@
   :block/updated-at 1663577175265}
  {:block/name "note of code",
   :block/created-at 1661132556999,
-  :block/updated-at 1663841525992}
+  :block/updated-at 1664292846367}
  {:block/name "now",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
+ {:block/name "operating system",
+  :block/created-at 1664292846366,
+  :block/updated-at 1664293320205}
  {:block/name "platform",
   :block/created-at 1661261263056,
   :block/updated-at 1661261263056}
@@ -120,7 +123,7 @@
   :block/updated-at 1663725201116}
  {:block/name "security",
   :block/created-at 1661486174790,
-  :block/updated-at 1663728538342}
+  :block/updated-at 1664294036675}
  {:block/name "security/tails",
   :block/created-at 1662369916954,
   :block/updated-at 1662369916954}
@@ -135,7 +138,7 @@
   :block/updated-at 1662448680244}
  {:block/name "template",
   :block/created-at 1661132918959,
-  :block/updated-at 1664088901831}
+  :block/updated-at 1664292742390}
  {:block/name "template/codeforces",
   :block/created-at 1661132918960,
   :block/updated-at 1661132939503}

@@ -93,6 +93,7 @@
 	  };
 	  ```
 - ## Range Modify Query (RMQ)
+  collapsed:: true
 	- ### zkw tree
 	  collapsed:: true
 		- Source: [統計的力量](https://www.slideshare.net/DanielChou/ss-7792670)
@@ -125,3 +126,47 @@
 		      }
 		  };
 		  ```
+- ## Disjoint Set
+  collapsed:: true
+	- ```cpp
+	  struct DisjointSet {
+	      vector<int> root_;
+	      vector<int> size_;
+	  
+	      DisjointSet(int n) : root_(n), size_(n, 1) {
+	          iota(root_.begin(), root_.end(), 0);
+	      }
+	  
+	      void join(int a, int b) {
+	          a = root(a);
+	          b = root(b);
+	          if (a == b) {
+	              return;
+	          }
+	  
+	          int large = a;
+	          if (size_[a] > size_[b]) {
+	              large = a;
+	          } else {
+	              large = b;
+	          }
+	          int small = a ^ b ^ large;
+	  
+	          size_[large] += size_[small];
+	          root_[small] = large;
+	      }
+	  
+	      int order(int a) {
+	          return size_[root(a)];
+	      }
+	  
+	      // should not be dfs, since stack also cost memory!
+	      int root(int a) {
+	          while (root_[a] != a) {
+	              root_[a] = root_[root_[a]];
+	              a = root_[a];
+	          }
+	          return a;
+	      }
+	  };
+	  ```
