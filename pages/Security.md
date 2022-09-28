@@ -25,6 +25,9 @@ icon:: 🛡️
 			  sudo lsof -PiTCP -sTCP:LISTEN
 			  ```
 		- Check ip incoming
+			- `tcpdump` will get the flow before iptable
+				- Wire -> NIC -> tcpdump -> iptables
+				- iptables -> tcpdump -> NIC -> Wire
 			- ```bash
 			  sudo tcpdump -i eth0 'tcp and port 8763'
 			  ```
