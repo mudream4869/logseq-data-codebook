@@ -18,6 +18,31 @@
 	      return 0;
 	  }
 	  ```
+- ## Secure Random Generator
+  collapsed:: true
+	- ```cpp
+	  // gen [0, upper)*n
+	  // usage:
+	  //  mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());
+	  //  auto v1 = genRand(rng, 100000, 10000000);
+	  //  auto v2 = genRand(rng, 100000, 12343212);
+	  vector<int64_t> genRand(mt19937_64& rng, size_t n, int64_t upper) {
+	      uniform_int_distribution<int64_t> valDistr(0, upper - 1);
+	      uniform_int_distribution<int64_t> rangDistr(0, n - 1);
+	  
+	      set<int64_t> vals;
+	      while (vals.size() < n) {
+	          vals.insert(valDistr(rng));
+	      }
+	  
+	      vector<int64_t> ret(vals.begin(), vals.end());
+	      for (size_t i = 0; i < n; ++i) {
+	          swap(ret[i], ret[rangDistr(rng)]);
+	      }
+	  
+	      return vector<int64_t>(vals.begin(), vals.end());
+	  }
+	  ```
 - ## [KMP](((631ea11b-05e1-4a96-bb44-d609c67a35fe)))
   collapsed:: true
 	- ```cpp
@@ -93,34 +118,42 @@
 	  };
 	  ```
 - ## Range Modify Query (RMQ)
-  collapsed:: true
 	- ### zkw tree
 	  collapsed:: true
 		- Source: [統計的力量](https://www.slideshare.net/DanielChou/ss-7792670)
 		- ```cpp
 		  // modify in single point, sum a range
 		  struct ZKWTree {
-		      vector<int> data;
-		      int base;
-		      ZKWTree(int n) {
+		      vector<int64_t> data;
+		      size_t base;
+		  
+		      ZKWTree(size_t n) {
 		          base = 1 << __lg(n + 5) + 1;
-		          data = vector<int>(base << 1, 0);
+		          data = vector<int64_t>(base << 1, 0);
 		      }
 		  
-		      void update(int x, int v) {
+		      // x in [0, n)
+		      void update(size_t x, int64_t v) {
 		          ++x;  // 0-base to 1-base
-		          for (int i = x + base; i; i >>= 1) {
-		              data[i] += v;
+		          x += base;
+		          data[x] = v;
+		          for (x >>= 1; x; x >>= 1) {
+		              data[x] = data[x << 1] + data[(x << 1) | 1];
 		          }
 		      }
 		  
 		      // [l, r]
-		      int query(int l, int r) {
+		      // l, r in [0, n)
+		      int64_t query(size_t l, size_t r) const {
 		          ++l, ++r;  // 0-base to 1-base
-		          int ans = 0;
+		          int64_t ans = 0;
 		          for (l += base - 1, r += base + 1; l ^ r ^ 1; l >>= 1, r >>= 1) {
-		              if (~l & 1) ans += data[l ^ 1];
-		              if (r & 1) ans += data[r ^ 1];
+		              if (~l & 1) {
+		                  ans += data[l ^ 1];
+		              }
+		              if (r & 1) {
+		                  ans += data[r ^ 1];
+		              }
 		          }
 		          return ans;
 		      }

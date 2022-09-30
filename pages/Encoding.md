@@ -14,6 +14,7 @@
 	- Example:
 		- `E8B387` = `11101000 10110011 10000111`
 		- Unicode = `1000 1100 1100 0111` = `8CC7`
+	- https://leetcode.com/problems/utf-8-validation/
 - ## C++: `wchar_t`
 	- Ref: [C++與Unicode](https://www.ithome.com.tw/voice/135711)
 	- TODO `wchar_t`
