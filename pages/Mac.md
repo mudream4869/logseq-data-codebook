@@ -5,3 +5,11 @@
 	- Built-in user accounts
 		- `_applepay`: Apple Pay Daemon
 		- `_findmydevice`: Find My Mac Feature
+- # Apple Silicon
+	- ## Old Mac
+		- x86_64
+	- ## M1/M2
+		- ARM arch
+		- [Why new Macs break your Docker build, and how to fix it](https://pythonspeed.com/articles/docker-build-problems-mac/)
+			- Docker result in complex and slower 😢
+			- Emulation also result in slower runtime 😢
