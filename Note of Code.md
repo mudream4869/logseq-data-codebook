@@ -22,6 +22,8 @@ icon:: 📚
 	- [[Mac]]
 	- [[ELK]]
 	- [[Encoding]]
+	- [[Rust]]
+	- [[SEO]]
 - # Links
 	- [Test SQL Online](https://sqliteonline.com/)
 - # WIP Items

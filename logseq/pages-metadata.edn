@@ -117,10 +117,13 @@
   :block/updated-at 1663577175265}
  {:block/name "note of code",
   :block/created-at 1661132556999,
-  :block/updated-at 1664292846367}
+  :block/updated-at 1665047686414}
  {:block/name "now",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
+ {:block/name "oct 6th, 2022",
+  :block/created-at 1665042374432,
+  :block/updated-at 1665042374432}
  {:block/name "operating system",
   :block/created-at 1664292846366,
   :block/updated-at 1664293320205}
@@ -133,6 +136,9 @@
  {:block/name "rendering",
   :block/created-at 1663725201116,
   :block/updated-at 1663725201116}
+ {:block/name "rust",
+  :block/created-at 1665044279017,
+  :block/updated-at 1665050459746}
  {:block/name "security",
   :block/created-at 1661486174790,
   :block/updated-at 1664352991099}
@@ -145,15 +151,18 @@
  {:block/name "security/wireguard",
   :block/created-at 1662452100325,
   :block/updated-at 1662452133092}
+ {:block/name "seo",
+  :block/created-at 1665047686414,
+  :block/updated-at 1665047699292}
+ {:block/name "sep 15th, 2022",
+  :block/created-at 1665042293080,
+  :block/updated-at 1665042293080}
  {:block/name "system design",
   :block/created-at 1662448407755,
   :block/updated-at 1662448680244}
  {:block/name "template",
   :block/created-at 1661132918959,
   :block/updated-at 1664549172770}
- {:block/name "template/codeforces",
-  :block/created-at 1661132918960,
-  :block/updated-at 1661132939503}
  {:block/name "todo",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
@@ -168,4 +177,4 @@
   :block/updated-at 1661132579103}
  {:block/name "web3",
   :block/created-at 1663725201224, 
-  :block/updated-at 1664724707459}]
+  :block/updated-at 1665043907357}]

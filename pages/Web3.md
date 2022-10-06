@@ -2,26 +2,30 @@
 	- [MetaMask](https://metamask.io/)
 	- https://rss3.io/
 - ## IPFS
-	- InterPlanetary File System: 星際文件系統
-	- 實驗檔案的分散式儲存、共享、持久化。
-	- 為什麼有 IPFS：HTTP 中心化
-	- 他就像一個 File System ，未來預計可以用一個協定，存取到裡面的檔案
-		- `ipfs:/`
+	- IPFS = InterPlanetary File System
+		- Distribute Storage
+		- Shared
+		- Persistent
+	- Why we need IPFS: The HTTP's Centralization
+	- IPFS just like a File System
+		- We may interact with it by a protocol: `ipfs:/`
 - ## PoS vs PoW
-	- ETH 於 2022/09/15 從 PoW 走向 PoS ，什麼是 PoS，和 PoW 有什麼不一樣
-	- ### PoW
-		- Prove of Work
-		- 一開始的區塊鏈是要去解一個 Hash 反函數的問題，這問題是隨機無公式的，只有不斷試誤，算夠快才有更高的機率得到答案。
-		- BTC 大概 10~15 分鐘長出一個新的區塊。
+	- [[Sep 15th, 2022]]
+		- ETH switch from PoW to PoS
+		- What is PoW/PoS?
+	- ### Pow
+		- PoW = Prove of Work
+		- A game of calculating a hash function.
+		- BTC: About 10~15 minutes grow a new block。
 	- ### PoS
-		- Prove of Stake
+		- PoS = Prove of Stake
 		- $幣齡(\text{CoinAge}) = 押天數 \times 代幣數量$
 		- 幣齡越高，越有機會獲取記帳權。
 		- $利息 = 幣齡 \times 代幣年利率 \div 365$
-		- 好處
+		- Pro
 			- 不需要大量能量
 			- 不需要礦機
-		- 壞處
+		- Con
 			- 富者越富
 			- 集中化 => 違反區塊鏈的信念
 			- 通貨膨漲

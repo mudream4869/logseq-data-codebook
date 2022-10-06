@@ -174,7 +174,7 @@
  :ref/linked-references-collapsed-threshold 50
  :favorites ["Note of Code"]
  :publishing/all-pages-public? true
- :feature/enable-journals? false
+ :feature/enable-journals? true
  :default-home {:page "Note of Code"}
  :feature/enable-flashcards? false
  :feature/enable-timetracking? false
