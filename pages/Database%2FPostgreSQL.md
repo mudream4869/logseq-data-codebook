@@ -11,7 +11,8 @@ title:: Database/PostgreSQL
 	  ```
 - ## Check Replication State (v10)
 	- ```sql
-	  SELECT client_addr, state, sent_lsn, write_lsn, flush_lsn, replay_lsn FROM pg_stat_replication;
+	  SELECT client_addr, state, sent_lsn, write_lsn, flush_lsn, replay_lsn
+	  FROM pg_stat_replication;
 	  ```
 	- [pg_stat_replication sent_location, write_location, flush_location, replay_location的差别](https://billtian.github.io/digoal.blog/2016/01/13/01.html)
 		- `sent_location` is the location that sent to standby.

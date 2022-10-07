@@ -42,7 +42,7 @@
   :block/updated-at 1661132557165}
  {:block/name "code snippets/ansible",
   :block/created-at 1664548620928,
-  :block/updated-at 1664548620928}
+  :block/updated-at 1665134162774}
  {:block/name "code snippets/bash",
   :block/created-at 1661132648556,
   :block/updated-at 1662523499321}
@@ -81,7 +81,10 @@
   :block/updated-at 1661483762599}
  {:block/name "database/postgresql",
   :block/created-at 1664374496524,
-  :block/updated-at 1664374496524}
+  :block/updated-at 1665134267184}
+ {:block/name "database/redis",
+  :block/created-at 1665112662150,
+  :block/updated-at 1665114014011}
  {:block/name "doing",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
@@ -121,9 +124,9 @@
  {:block/name "now",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
- {:block/name "oct 6th, 2022",
-  :block/created-at 1665042374432,
-  :block/updated-at 1665042374432}
+ {:block/name "oct 7th, 2022",
+  :block/created-at 1665114402555,
+  :block/updated-at 1665114402555}
  {:block/name "operating system",
   :block/created-at 1664292846366,
   :block/updated-at 1664293320205}
