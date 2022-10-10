@@ -83,8 +83,8 @@
   :block/created-at 1664374496524,
   :block/updated-at 1665134267184}
  {:block/name "database/redis",
-  :block/created-at 1665112662150,
-  :block/updated-at 1665114014011}
+  :block/created-at 1665157961486,
+  :block/updated-at 1665157961486}
  {:block/name "doing",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
@@ -125,8 +125,14 @@
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
  {:block/name "oct 7th, 2022",
-  :block/created-at 1665114402555,
-  :block/updated-at 1665114402555}
+  :block/created-at 1665157965064,
+  :block/updated-at 1665157965064}
+ {:block/name "oct 8th, 2022",
+  :block/created-at 1665158400654,
+  :block/updated-at 1665158400654}
+ {:block/name "oct 9th, 2022",
+  :block/created-at 1665283815469,
+  :block/updated-at 1665283815469}
  {:block/name "operating system",
   :block/created-at 1664292846366,
   :block/updated-at 1664293320205}
@@ -140,8 +146,8 @@
   :block/created-at 1663725201116,
   :block/updated-at 1663725201116}
  {:block/name "rust",
-  :block/created-at 1665044279017,
-  :block/updated-at 1665050459746}
+  :block/created-at 1665157961615,
+  :block/updated-at 1665157961615}
  {:block/name "security",
   :block/created-at 1661486174790,
   :block/updated-at 1664352991099}
@@ -155,17 +161,20 @@
   :block/created-at 1662452100325,
   :block/updated-at 1662452133092}
  {:block/name "seo",
-  :block/created-at 1665047686414,
-  :block/updated-at 1665047699292}
+  :block/created-at 1665157961618,
+  :block/updated-at 1665157961618}
  {:block/name "sep 15th, 2022",
-  :block/created-at 1665042293080,
-  :block/updated-at 1665042293080}
+  :block/created-at 1665157962695,
+  :block/updated-at 1665157962695}
  {:block/name "system design",
   :block/created-at 1662448407755,
   :block/updated-at 1662448680244}
  {:block/name "template",
   :block/created-at 1661132918959,
-  :block/updated-at 1664549172770}
+  :block/updated-at 1665158116964}
+ {:block/name "template/codeforces",
+  :block/created-at 1661132918960,
+  :block/updated-at 1661132939503}
  {:block/name "todo",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
