@@ -108,7 +108,7 @@
   :block/updated-at 1661132579103}
  {:block/name "linux",
   :block/created-at 1661744392262,
-  :block/updated-at 1662024800276}
+  :block/updated-at 1665374039685}
  {:block/name "linux/bpf and ebpf",
   :block/created-at 1661744413524,
   :block/updated-at 1661915947037}
@@ -124,6 +124,9 @@
  {:block/name "now",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
+ {:block/name "oct 10th, 2022",
+  :block/created-at 1665371355678,
+  :block/updated-at 1665371355678}
  {:block/name "oct 7th, 2022",
   :block/created-at 1665157965064,
   :block/updated-at 1665157965064}
@@ -147,7 +150,7 @@
   :block/updated-at 1663725201116}
  {:block/name "rust",
   :block/created-at 1665157961615,
-  :block/updated-at 1665157961615}
+  :block/updated-at 1665390134366}
  {:block/name "security",
   :block/created-at 1661486174790,
   :block/updated-at 1664352991099}
