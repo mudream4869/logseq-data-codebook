@@ -81,7 +81,7 @@
   :block/updated-at 1661483762599}
  {:block/name "database/postgresql",
   :block/created-at 1664374496524,
-  :block/updated-at 1665134267184}
+  :block/updated-at 1665484477851}
  {:block/name "database/redis",
   :block/created-at 1665157961486,
   :block/updated-at 1665157961486}
@@ -124,18 +124,12 @@
  {:block/name "now",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
- {:block/name "oct 10th, 2022",
-  :block/created-at 1665371355678,
-  :block/updated-at 1665371355678}
+ {:block/name "oct 11th, 2022",
+  :block/created-at 1665454177504,
+  :block/updated-at 1665454177504}
  {:block/name "oct 7th, 2022",
   :block/created-at 1665157965064,
   :block/updated-at 1665157965064}
- {:block/name "oct 8th, 2022",
-  :block/created-at 1665158400654,
-  :block/updated-at 1665158400654}
- {:block/name "oct 9th, 2022",
-  :block/created-at 1665283815469,
-  :block/updated-at 1665283815469}
  {:block/name "operating system",
   :block/created-at 1664292846366,
   :block/updated-at 1664293320205}
@@ -175,9 +169,6 @@
  {:block/name "template",
   :block/created-at 1661132918959,
   :block/updated-at 1665158116964}
- {:block/name "template/codeforces",
-  :block/created-at 1661132918960,
-  :block/updated-at 1661132939503}
  {:block/name "todo",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}

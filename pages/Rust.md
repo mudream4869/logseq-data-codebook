@@ -1,5 +1,4 @@
 - # Leetcode Snippets
-  collapsed:: true
 	- `String` to `Vec<u8>`
 		- ```rust
 		  s.as_bytes().to_vec()
@@ -10,7 +9,6 @@
 		  ```
 - # Lifetime
 	- To check if reference (borrow) is dangling or not
-	  collapsed:: true
 		- ```rust
 		  fn main() {
 		      let r;
@@ -33,7 +31,6 @@
 				  ```
 				-
 	- Example1: Last Referencing Point
-	  collapsed:: true
 		- ```rust
 		  fn main() {
 		     let mut s = 1;
@@ -48,9 +45,7 @@
 		  ```
 			- Compile ok!
 	- Example2: One writer nand multiple readers
-	  collapsed:: true
-		- collapsed:: true
-		  ```rust
+		- ```rust
 		  fn main() {
 		      let mut s = 1;
 		  
@@ -71,8 +66,7 @@
 				  7 |     println!("{} {}", r1, r2);
 				    |                       -- immutable borrow later used here
 				  ```
-		- collapsed:: true
-		  ```rust
+		- ```rust
 		  fn main() {
 		      let mut w = vec![1, 2, 3];
 		      w[w.len() - 1] = 2;
@@ -97,7 +91,6 @@
 			- rust: ok
 			- TODO why diff
 	- Example3: Longest string
-	  collapsed:: true
 		- ```rust
 		  fn main() {
 		      let string1 = String::from("abcd");
@@ -118,7 +111,6 @@
 			- The lifetime of `result` will be `string2`'s lifetime
 			- It will return smallest lifetime ($$\cap L $$)
 	- Static Lifetime
-	  collapsed:: true
 		- ```rust
 		  let s: &'static str = "hello world";
 		  ```
