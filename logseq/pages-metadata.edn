@@ -124,12 +124,21 @@
  {:block/name "now",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
- {:block/name "oct 11th, 2022",
-  :block/created-at 1665454177504,
-  :block/updated-at 1665454177504}
+ {:block/name "oct 10th, 2022",
+  :block/created-at 1665371355678,
+  :block/updated-at 1665371355678}
+ {:block/name "oct 12th, 2022",
+  :block/created-at 1665544828551,
+  :block/updated-at 1665544828551}
  {:block/name "oct 7th, 2022",
   :block/created-at 1665157965064,
   :block/updated-at 1665157965064}
+ {:block/name "oct 8th, 2022",
+  :block/created-at 1665158400654,
+  :block/updated-at 1665158400654}
+ {:block/name "oct 9th, 2022",
+  :block/created-at 1665283815469,
+  :block/updated-at 1665283815469}
  {:block/name "operating system",
   :block/created-at 1664292846366,
   :block/updated-at 1664293320205}
@@ -144,7 +153,7 @@
   :block/updated-at 1663725201116}
  {:block/name "rust",
   :block/created-at 1665157961615,
-  :block/updated-at 1665390134366}
+  :block/updated-at 1665544857119}
  {:block/name "security",
   :block/created-at 1661486174790,
   :block/updated-at 1664352991099}
@@ -169,6 +178,9 @@
  {:block/name "template",
   :block/created-at 1661132918959,
   :block/updated-at 1665158116964}
+ {:block/name "template/codeforces",
+  :block/created-at 1661132918960,
+  :block/updated-at 1661132939503}
  {:block/name "todo",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}

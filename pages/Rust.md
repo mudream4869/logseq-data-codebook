@@ -7,6 +7,11 @@
 		- ```rust
 		  String::from_utf8(v).unwrap()
 		  ```
+	- Enumerate
+		- ```rust
+		  for (idx, num) in nums.iter().enumerate() {
+		  }
+		  ```
 - # Lifetime
 	- To check if reference (borrow) is dangling or not
 		- ```rust
