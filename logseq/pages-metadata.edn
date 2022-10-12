@@ -36,13 +36,13 @@
   :block/updated-at 1661132579103}
  {:block/name "cases",
   :block/created-at 1661261044576,
-  :block/updated-at 1661263029571}
+  :block/updated-at 1665717362009}
  {:block/name "code snippets",
   :block/created-at 1661132557165,
   :block/updated-at 1661132557165}
  {:block/name "code snippets/ansible",
   :block/created-at 1664548620928,
-  :block/updated-at 1665134162774}
+  :block/updated-at 1666085257102}
  {:block/name "code snippets/bash",
   :block/created-at 1661132648556,
   :block/updated-at 1662523499321}
@@ -84,7 +84,7 @@
   :block/updated-at 1665484477851}
  {:block/name "database/redis",
   :block/created-at 1665157961486,
-  :block/updated-at 1665157961486}
+  :block/updated-at 1665643544074}
  {:block/name "doing",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
@@ -112,6 +112,9 @@
  {:block/name "linux/bpf and ebpf",
   :block/created-at 1661744413524,
   :block/updated-at 1661915947037}
+ {:block/name "linux/ubuntu",
+  :block/created-at 1666152008887,
+  :block/updated-at 1666152008887}
  {:block/name "mac",
   :block/created-at 1661831257053,
   :block/updated-at 1663052543286}
@@ -124,30 +127,24 @@
  {:block/name "now",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
- {:block/name "oct 11th, 2022",
-  :block/created-at 1665454177504,
-  :block/updated-at 1665454177504}
- {:block/name "oct 7th, 2022",
-  :block/created-at 1665157965064,
-  :block/updated-at 1665157965064}
+ {:block/name "oct 19th, 2022",
+  :block/created-at 1666108972233,
+  :block/updated-at 1666108972233}
  {:block/name "operating system",
   :block/created-at 1664292846366,
   :block/updated-at 1664293320205}
  {:block/name "platform",
   :block/created-at 1661261263056,
   :block/updated-at 1661261263056}
- {:block/name "readme",
-  :block/created-at 1661222696214,
-  :block/updated-at 1661236270259}
  {:block/name "rendering",
   :block/created-at 1663725201116,
   :block/updated-at 1663725201116}
  {:block/name "rust",
   :block/created-at 1665157961615,
-  :block/updated-at 1665390134366}
+  :block/updated-at 1666192674406}
  {:block/name "security",
   :block/created-at 1661486174790,
-  :block/updated-at 1664352991099}
+  :block/updated-at 1666085568287}
  {:block/name "security/tails",
   :block/created-at 1662369916954,
   :block/updated-at 1662369916954}
@@ -165,7 +162,7 @@
   :block/updated-at 1665157962695}
  {:block/name "system design",
   :block/created-at 1662448407755,
-  :block/updated-at 1662448680244}
+  :block/updated-at 1665993258572}
  {:block/name "template",
   :block/created-at 1661132918959,
   :block/updated-at 1665158116964}

@@ -7,6 +7,56 @@
 		- ```rust
 		  String::from_utf8(v).unwrap()
 		  ```
+	- i32 to String
+		- ```rust
+		  12.to_string()
+		  ```
+	- String to i32
+		- ```rust
+		  12.to_string().parse::<i32>().unwrap()
+		  ```
+	- Enumerate
+		- ```rust
+		  for (idx, num) in nums.iter().enumerate() {
+		  }
+		  ```
+	- ## Single Linked List
+		- [Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/index.html#learn-rust-with-entirely-too-many-linked-lists)
+		- ### Definition
+			- ```rust
+			  // pub struct ListNode {
+			  //   pub val: i32,
+			  //   pub next: Option<Box<ListNode>>
+			  // }
+			  // impl ListNode {
+			  //   #[inline]
+			  //   fn new(val: i32) -> Self {
+			  //     ListNode {
+			  //       next: None,
+			  //       val
+			  //     }
+			  //   }
+			  // }
+			  ```
+		- ### Length
+			- ```rust
+			  let mut ptr = &head;
+			  while ptr.is_some() {
+			    len += 1;
+			    ptr = &ptr.as_ref().unwrap().next;
+			  }
+			  ```
+		- ### Move to nth
+			- ```rust
+			  let mut modify_ptr: &mut ListNode = head.as_mut().unwrap().as_mut();
+			  for _ in 0..n {
+			    modify_ptr = modify_ptr.next.as_mut().unwrap().as_mut();
+			  }
+			  ```
+		- ### Remove one
+			- ```rust
+			  modify_ptr.next = modify_ptr.next.as_mut().unwrap().as_mut().next.take();
+			  ```
 - # Lifetime
 	- To check if reference (borrow) is dangling or not
 		- ```rust

@@ -11,8 +11,15 @@ title:: Code Snippets/Ansible
 	    ansible.builtin.debug:
 	      var: <var_name>
 	  ```
+	- ```yml
+	  - name: Define private_ip
+	    debug:
+	      var: hostvars[inventory_hostname].ansible_eth0
+	  ```
 - ## Multicast Command
 	- ```bash
+	  export ANSIBLE_HOST_KEY_CHECKING=false
+	  
 	  ansible -i hosts 'LIMIT' \
 	      --user=<user> \
 	      --private-key=<key> \
