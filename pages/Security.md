@@ -1,6 +1,11 @@
 icon:: 🛡️
 
+- ## Normal
+	- Upgrade some daemon to latest version in order to prevent 0day attacking.
+		- nginx
+		- ssh
 - ## Emergency
+  collapsed:: true
 	- ### Source: [Linux应急笔记](https://github.com/422926799/note/tree/master/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/Linux%E5%BA%94%E6%80%A5%E7%AC%94%E8%AE%B0)
 		- Check Status
 			- Check processes that CPU usages > 50%

@@ -36,7 +36,7 @@
   :block/updated-at 1661132579103}
  {:block/name "cases",
   :block/created-at 1661261044576,
-  :block/updated-at 1661263029571}
+  :block/updated-at 1665717362009}
  {:block/name "code snippets",
   :block/created-at 1661132557165,
   :block/updated-at 1661132557165}
@@ -124,9 +124,9 @@
  {:block/name "now",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
- {:block/name "oct 13th, 2022",
-  :block/created-at 1665632816429,
-  :block/updated-at 1665632816429}
+ {:block/name "oct 14th, 2022",
+  :block/created-at 1665682036586,
+  :block/updated-at 1665682036586}
  {:block/name "operating system",
   :block/created-at 1664292846366,
   :block/updated-at 1664293320205}
@@ -141,7 +141,7 @@
   :block/updated-at 1665544857119}
  {:block/name "security",
   :block/created-at 1661486174790,
-  :block/updated-at 1664352991099}
+  :block/updated-at 1665735776587}
  {:block/name "security/tails",
   :block/created-at 1662369916954,
   :block/updated-at 1662369916954}
