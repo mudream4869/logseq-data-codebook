@@ -1,4 +1,8 @@
+- ## DDD-style
+	- Ref: https://slides.com/jalex-chang/go-clean-arch-cresclab
+	-
 - ## Scale Up vs Scale Out
+  collapsed:: true
 	- ### Scale Up
 		- Upgrade Single machine's resource. Ex: cpu, memory, disks ...
 		- ![image.png](../assets/image_1662448600194_0.png)
@@ -6,6 +10,7 @@
 		- Add more machines.
 		- ![image.png](../assets/image_1662448679716_0.png)
 - ## Deployment Strategies
+  collapsed:: true
 	- Source: [Intro to Deployment Strategies: Blue-Green, Canary, and More](https://harness.io/blog/blue-green-canary-deployment-strategies)
 	- ### The Basic Deployment
 		- Just deploy new version to all nodes.

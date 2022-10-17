@@ -42,7 +42,7 @@
   :block/updated-at 1661132557165}
  {:block/name "code snippets/ansible",
   :block/created-at 1664548620928,
-  :block/updated-at 1665134162774}
+  :block/updated-at 1665998209380}
  {:block/name "code snippets/bash",
   :block/created-at 1661132648556,
   :block/updated-at 1662523499321}
@@ -124,9 +124,9 @@
  {:block/name "now",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
- {:block/name "oct 14th, 2022",
-  :block/created-at 1665682036586,
-  :block/updated-at 1665682036586}
+ {:block/name "oct 17th, 2022",
+  :block/created-at 1665992178141,
+  :block/updated-at 1665992178141}
  {:block/name "operating system",
   :block/created-at 1664292846366,
   :block/updated-at 1664293320205}
@@ -159,7 +159,7 @@
   :block/updated-at 1665157962695}
  {:block/name "system design",
   :block/created-at 1662448407755,
-  :block/updated-at 1662448680244}
+  :block/updated-at 1665993258572}
  {:block/name "template",
   :block/created-at 1661132918959,
   :block/updated-at 1665158116964}
