@@ -141,7 +141,7 @@
   :block/updated-at 1663725201116}
  {:block/name "rust",
   :block/created-at 1665157961615,
-  :block/updated-at 1665544857119}
+  :block/updated-at 1666192674406}
  {:block/name "security",
   :block/created-at 1661486174790,
   :block/updated-at 1666085568287}
