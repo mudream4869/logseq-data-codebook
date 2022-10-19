@@ -113,8 +113,8 @@
   :block/created-at 1661744413524,
   :block/updated-at 1661915947037}
  {:block/name "linux/ubuntu",
-  :block/created-at 1666083005402,
-  :block/updated-at 1666088392551}
+  :block/created-at 1666152008887,
+  :block/updated-at 1666152008887}
  {:block/name "mac",
   :block/created-at 1661831257053,
   :block/updated-at 1663052543286}
@@ -136,9 +136,6 @@
  {:block/name "platform",
   :block/created-at 1661261263056,
   :block/updated-at 1661261263056}
- {:block/name "readme",
-  :block/created-at 1666074376868,
-  :block/updated-at 1666074376868}
  {:block/name "rendering",
   :block/created-at 1663725201116,
   :block/updated-at 1663725201116}
@@ -172,9 +169,6 @@
  {:block/name "todo",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
- {:block/name "ubuntu",
-  :block/created-at 1666085522905,
-  :block/updated-at 1666085522905}
  {:block/name "unzipping file in python",
   :block/created-at 1661132557226,
   :block/updated-at 1661132557226}
