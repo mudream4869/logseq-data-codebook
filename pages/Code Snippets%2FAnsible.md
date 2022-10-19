@@ -18,6 +18,8 @@ title:: Code Snippets/Ansible
 	  ```
 - ## Multicast Command
 	- ```bash
+	  export ANSIBLE_HOST_KEY_CHECKING=false
+	  
 	  ansible -i hosts 'LIMIT' \
 	      --user=<user> \
 	      --private-key=<key> \

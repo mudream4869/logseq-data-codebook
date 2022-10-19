@@ -2,7 +2,7 @@ icon:: 🛡️
 
 - ## Normal
 	- Upgrade some daemon to latest version in order to prevent 0day attacking.
-		- nginx
+		- [Nginx](logseq://graph/note-of-code?block-id=634e68bd-d960-4be4-a489-1babe761f48d)
 		- ssh
 - ## Emergency
   collapsed:: true

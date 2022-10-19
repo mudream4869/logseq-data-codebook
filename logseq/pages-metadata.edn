@@ -42,7 +42,7 @@
   :block/updated-at 1661132557165}
  {:block/name "code snippets/ansible",
   :block/created-at 1664548620928,
-  :block/updated-at 1665998209380}
+  :block/updated-at 1666085257102}
  {:block/name "code snippets/bash",
   :block/created-at 1661132648556,
   :block/updated-at 1662523499321}
@@ -112,6 +112,9 @@
  {:block/name "linux/bpf and ebpf",
   :block/created-at 1661744413524,
   :block/updated-at 1661915947037}
+ {:block/name "linux/ubuntu",
+  :block/created-at 1666083005402,
+  :block/updated-at 1666088392551}
  {:block/name "mac",
   :block/created-at 1661831257053,
   :block/updated-at 1663052543286}
@@ -124,15 +127,18 @@
  {:block/name "now",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
- {:block/name "oct 17th, 2022",
-  :block/created-at 1665992178141,
-  :block/updated-at 1665992178141}
+ {:block/name "oct 19th, 2022",
+  :block/created-at 1666108972233,
+  :block/updated-at 1666108972233}
  {:block/name "operating system",
   :block/created-at 1664292846366,
   :block/updated-at 1664293320205}
  {:block/name "platform",
   :block/created-at 1661261263056,
   :block/updated-at 1661261263056}
+ {:block/name "readme",
+  :block/created-at 1666074376868,
+  :block/updated-at 1666074376868}
  {:block/name "rendering",
   :block/created-at 1663725201116,
   :block/updated-at 1663725201116}
@@ -141,7 +147,7 @@
   :block/updated-at 1665544857119}
  {:block/name "security",
   :block/created-at 1661486174790,
-  :block/updated-at 1665735776587}
+  :block/updated-at 1666085568287}
  {:block/name "security/tails",
   :block/created-at 1662369916954,
   :block/updated-at 1662369916954}
@@ -166,6 +172,9 @@
  {:block/name "todo",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
+ {:block/name "ubuntu",
+  :block/created-at 1666085522905,
+  :block/updated-at 1666085522905}
  {:block/name "unzipping file in python",
   :block/created-at 1661132557226,
   :block/updated-at 1661132557226}
