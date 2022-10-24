@@ -118,8 +118,8 @@
 	  };
 	  ```
 - ## Range Modify Query (RMQ)
+  collapsed:: true
 	- ### zkw tree
-	  collapsed:: true
 		- Source: [統計的力量](https://www.slideshare.net/DanielChou/ss-7792670)
 		- ```cpp
 		  // modify in single point, sum a range

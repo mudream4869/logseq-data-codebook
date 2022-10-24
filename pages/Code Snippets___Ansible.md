@@ -26,6 +26,12 @@ title:: Code Snippets/Ansible
 	      -f 10 -m shell -a \
 	  	'echo 1'
 	  ```
+	- Notice that sometimes host file will assign default username:
+	  ```ini
+	  [all:vars]
+	  ansible_user = aaa
+	  ```
+	  In this case, `--user` will not affect.
 - ##  IPs
 	- All
 		- ```yml
