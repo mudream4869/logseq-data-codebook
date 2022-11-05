@@ -9,7 +9,7 @@
   :block/updated-at 1661132557064}
  {:block/name "algorithm/lock",
   :block/created-at 1661483745654,
-  :block/updated-at 1661483745654}
+  :block/updated-at 1666348330852}
  {:block/name "algorithm/lock/cas",
   :block/created-at 1661483745652,
   :block/updated-at 1661744280860}
@@ -18,7 +18,7 @@
   :block/updated-at 1661744350506}
  {:block/name "algorithm/string",
   :block/created-at 1663725201073,
-  :block/updated-at 1663725201073}
+  :block/updated-at 1666348281066}
  {:block/name "b",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
@@ -42,7 +42,7 @@
   :block/updated-at 1661132557165}
  {:block/name "code snippets/ansible",
   :block/created-at 1664548620928,
-  :block/updated-at 1666085257102}
+  :block/updated-at 1666236804592}
  {:block/name "code snippets/bash",
   :block/created-at 1661132648556,
   :block/updated-at 1662523499321}
@@ -81,7 +81,7 @@
   :block/updated-at 1661483762599}
  {:block/name "database/postgresql",
   :block/created-at 1664374496524,
-  :block/updated-at 1665484477851}
+  :block/updated-at 1666345616933}
  {:block/name "database/redis",
   :block/created-at 1665157961486,
   :block/updated-at 1665643544074}
@@ -123,13 +123,13 @@
   :block/updated-at 1663577175265}
  {:block/name "note of code",
   :block/created-at 1661132556999,
-  :block/updated-at 1665047686414}
+  :block/updated-at 1666254328533}
  {:block/name "now",
   :block/created-at 1661132579103,
   :block/updated-at 1661132579103}
- {:block/name "oct 19th, 2022",
-  :block/created-at 1666108972233,
-  :block/updated-at 1666108972233}
+ {:block/name "oct 25th, 2022",
+  :block/created-at 1666684346446,
+  :block/updated-at 1666684577695}
  {:block/name "operating system",
   :block/created-at 1664292846366,
   :block/updated-at 1664293320205}
