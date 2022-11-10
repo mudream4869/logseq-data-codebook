@@ -1,1 +1,3 @@
+icon:: 📘
+
 - Some frequently doing things...

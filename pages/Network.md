@@ -71,3 +71,13 @@
 		- AAAA (RFC 3596): Domain name -> IPv6
 		- CName (RFC 1035): Domain name alias
 		- NS: Using what DNS server.
+- # ISP
+	- **I**nternet **S**ervice **P**rovider
+- # HTTP/2
+	- HTTP/1.1:
+		- Need to occupy a TCP connection for each request.
+		- Download files (css, js, ...) one-by-one.
+	- HTTP/2:
+		- Download all resource with only one connection to server.
+		- Pack can be multiplexing.
+-
