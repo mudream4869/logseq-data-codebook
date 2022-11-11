@@ -1,3 +1,5 @@
+icon:: 💻
+
 - $CPU\ Time = \frac{Clock\ Cycles}{Clock\ Rate}$
 	- Clock rate can be found by `lscpu` (linux)
 		- ```
