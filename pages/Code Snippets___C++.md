@@ -1,8 +1,10 @@
 title:: Code Snippets/C++
 
-- ## Memory Usage
+- ## [[Memory Usage]]
 	- https://stackoverflow.com/questions/669438/how-to-get-memory-usage-at-runtime-using-c
 	- ```cpp
+	  #include <unistd.h>
+	  
 	  struct MemoryInfo {
 	      // kb
 	      double rss;
