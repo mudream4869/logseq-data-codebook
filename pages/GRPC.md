@@ -1,0 +1,17 @@
+- GRPC = Google Remote Process Call
+- A connection can multiplex many streams, since GRPC is built based on HTTP2
+- ## Usage
+	- https://github.com/hashicorp/go-plugin
+- ## [[Thread Model]]
+	- ### Sync Model
+		- ![grpc-sync-thread-model.png](../assets/grpc-sync-thread-model_1668420571995_0.png)
+		- The GRPC will create a thread for each incoming stream.
+	- ### Async Model
+		- [Google group: GRPC Server Threading](https://groups.google.com/g/grpc-io/c/Cul6fd7cOB0/m/bMP5f9mdBAAJ)
+			- > Hello,
+			  Yes, you need to provide your own thread pool for the async model if you want multithreaded RPC processing of RPCs. The most straightforward example, IMO, is in test/cpp/thread_stress_test.cc .
+			- Current filename: [test/cpp/end2end/thread_stress_test.cc](https://github.com/grpc/grpc/blob/v1.50.0/test/cpp/end2end/thread_stress_test.cc)
+- ## Thread Safety
+- ## Life Cycle
+	- {{embed ((637a4a7b-8c09-4c47-9feb-1e467e83ff04))}}
+	- {{embed ((637a4a7b-033a-4ba7-a200-aad2b734a517))}}
