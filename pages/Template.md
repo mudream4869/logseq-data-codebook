@@ -347,3 +347,82 @@
 	      }
 	  };
 	  ```
+- ## Convex Hull
+	- ## Gift Wrapping Algorithm
+		- Time Complexity: $O(N^2)$
+		- LeetCode: [587. Erect the Fence](https://leetcode.com/problems/erect-the-fence/description/)
+		- Step:
+			- [[draws/2022-11-21-22-37-49.excalidraw]]
+		- Code
+			- ```cpp
+			  #define _USE_MATH_DEFINES
+			  #include <cmath>
+			  
+			  class Solution {
+			  public:
+			      vector<vector<int>> outerTrees(vector<vector<int>>& trees) {
+			          if (trees.size() == 1) {
+			              return trees;
+			          }
+			          
+			          set<size_t> avail;
+			          for (size_t i = 0; i < trees.size(); ++i) {
+			              avail.insert(i);
+			          }
+			  
+			          // Contour starts from lowest point
+			          auto minXElem = min_element(trees.begin(), trees.end(),
+			              [](const auto& a, const auto& b){ return a[1] < b[1]; });
+			          
+			          size_t procID = minXElem - trees.begin();
+			          size_t firstID = procID;
+			          double prevDeg = 0;
+			  
+			          // firstID is still in avail since we need to check
+			          // if the route come back to first point
+			  
+			          vector<size_t> used{firstID};
+			          while (!avail.empty()) {
+			              // Find min of (change degree, dist^2, index)
+			              vector<tuple<double, double, size_t>> tmp;
+			              for (size_t id: avail) {
+			                  // This condition is true only when procID = firstID 
+			                  // since every procID
+			                  // will remove from avail except firstID.
+			                  if (id == procID) {
+			                      continue;
+			                  }
+			  
+			                  double dx = trees[id][0] - trees[procID][0];
+			                  double dy = trees[id][1] - trees[procID][1];
+			                  double degree = atan2(dy, dx);
+			                  degree -= prevDeg;
+			                  if (degree < 0) {
+			                      degree += 2*M_PI;
+			                  }
+			                  double dist2 = dx*dx + dy*dy;
+			                  tmp.emplace_back(degree, dist2, id);
+			              }
+			  
+			              auto [deltaDegree, ignore, nextID] =
+			                  *min_element(tmp.begin(), tmp.end());
+			  
+			              if (nextID == firstID) {
+			                  break;
+			              }
+			  
+			              used.push_back(nextID);
+			              avail.erase(nextID);
+			              procID = nextID;
+			              prevDeg += deltaDegree;
+			          }
+			  
+			          vector<vector<int>> ret;
+			          for (size_t id: used) {
+			              ret.push_back(trees[id]);
+			          }
+			  
+			          return ret;
+			      }
+			  };
+			  ```
