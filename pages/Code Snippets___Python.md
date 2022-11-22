@@ -1,7 +1,7 @@
 title:: Code Snippets/Python
 
 - ## Unzip
-	- [https://stackoverflow.com/questions/3451111/unzipping-files-in-python](Unzipping file in python)
+	- [Unzipping file in python](https://stackoverflow.com/questions/3451111/unzipping-files-in-python)
 	- ```python
 	  import zipfile
 	  with zipfile.ZipFile(path_to_zip_file, 'r') as zip_ref:
