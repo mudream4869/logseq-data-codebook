@@ -52,13 +52,19 @@
 		  is ok.
 - ## Mac use NTFS
   collapsed:: true
+	- platform:: mac
 	- 2022 Solution:
 		- Install FUSE + ntfs-3g ([Can't install NTFS-3G on macOS BigSur](https://apple.stackexchange.com/questions/422521/cant-install-ntfs-3g-on-macos-bigsur))
 		  ```bash
 		  brew tap gromgit/homebrew-fuse
 		  brew install --cask macfuse
-		  brew install ntfs-3g-mac 
+		  brew install ntfs-3g-mac
+		  
 		  ```
+			- M2: Need to reopen terminal. Not sure why.
+			  ```
+			  Mac OS X error: shell-init: error retrieving current directory
+			  ```
 		- Unmount readonly volume
 		- Mount ([在 macOS 上掛載可寫的NTFS](https://blog.roy4801.tw/2019/03/31/%E5%9C%A8-macOS-%E4%B8%8A%E6%8E%9B%E8%BC%89%E5%8F%AF%E5%AF%AB%E7%9A%84NTFS/))
 			- Choose disk id
