@@ -5,7 +5,6 @@ icon:: 🛡️
 		- [Nginx](logseq://graph/note-of-code?block-id=634e68bd-d960-4be4-a489-1babe761f48d)
 		- ssh
 - ## Emergency
-  collapsed:: true
 	- ### Source: [Linux应急笔记](https://github.com/422926799/note/tree/master/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/Linux%E5%BA%94%E6%80%A5%E7%AC%94%E8%AE%B0)
 		- Check Status
 			- Check processes that CPU usages > 50%
@@ -38,8 +37,11 @@ icon:: 🛡️
 			  ```
 - ## Scan file
   id:: 63155aa2-1e4d-4f5c-888c-3929814d549d
-	- https://github.com/VirusTotal
-	- https://www.virustotal.com/gui/home/upload
+	- VirusTotal scan the binary file
+		- https://github.com/VirusTotal
+		- https://www.virustotal.com/gui/home/upload
+	- chkrootkit check if there is a rootkit sign
+		- http://www.chkrootkit.org/
 - ## Privacy
 	- ### VPN
 		- [WireGuard]([[Security/WireGuard]])
