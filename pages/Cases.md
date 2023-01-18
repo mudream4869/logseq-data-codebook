@@ -51,7 +51,6 @@
 		  ```
 		  is ok.
 - ## Mac use NTFS
-  collapsed:: true
 	- platform:: mac
 	- 2022 Solution:
 		- Install FUSE + ntfs-3g ([Can't install NTFS-3G on macOS BigSur](https://apple.stackexchange.com/questions/422521/cant-install-ntfs-3g-on-macos-bigsur))
@@ -79,3 +78,4 @@
 			  ```bash
 			  sudo /usr/local/bin/ntfs-3g /dev/disk2s1 /Volumes/<disk name> -olocal -oallow_other
 			  ```
+-
