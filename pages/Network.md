@@ -80,4 +80,6 @@
 	- HTTP/2:
 		- Download all resource with only one connection to server.
 		- Pack can be multiplexing.
--
+- # BGP Anycast
+	- **B**order **G**ateway **P**rotocol
+	- Multiple instance sharing same IP

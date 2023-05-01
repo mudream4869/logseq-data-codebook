@@ -26,3 +26,11 @@ icon:: 🐧
 	- Patch kernel without reboot.
 	- [Kernel Doc](https://www.kernel.org/doc/html/latest/livepatch/livepatch.html)
 	- ![image.png](../assets/image_1665373553121_0.png)
+- ## Init vs Systemd
+	- Source: [Init vs Systemd: What is an init daemon?](https://web.yueh.dev/learning/init-vs-systemd-what-is-an-init-daemon)
+	- Init daemon
+		- Start services sequencially.
+		- Need to write a script under `/etc/init.d` to manage a service
+	- Systemd
+		- Start services parallel by a depend DAG of services.
+		- Config under `/etc/systemd/system/`

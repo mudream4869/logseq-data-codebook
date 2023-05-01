@@ -1,3 +1,5 @@
+icon:: 🛢
+
 - # ACID
 	- ## Atomic
 		- Every transaction should be done or never do. No mid-state.
