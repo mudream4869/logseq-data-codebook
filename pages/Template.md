@@ -347,7 +347,9 @@
 	      }
 	  };
 	  ```
+	- [LeetCode 1697. Checking Existence of Edge Length Limited Paths](1697. Checking Existence of Edge Length Limited Paths)
 - ## Convex Hull
+  collapsed:: true
 	- ## Gift Wrapping Algorithm
 		- Time Complexity: $O(N^2)$
 		- LeetCode: [587. Erect the Fence](https://leetcode.com/problems/erect-the-fence/description/)
