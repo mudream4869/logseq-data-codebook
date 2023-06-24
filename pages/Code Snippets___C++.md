@@ -3,6 +3,7 @@ title:: Code Snippets/C++
 - ## [[Memory Usage]]
 	- https://stackoverflow.com/questions/669438/how-to-get-memory-usage-at-runtime-using-c
 	- ```cpp
+	  #include <fstream>
 	  #include <unistd.h>
 	  
 	  struct MemoryInfo {
