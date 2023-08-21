@@ -1,4 +1,4 @@
-- # History
+# History
 	- 196x: ARPANET borned.
 	- 197x: TCP/IP Protocol, Router borned.
 	- 198x:
@@ -80,6 +80,6 @@
 	- HTTP/2:
 		- Download all resource with only one connection to server.
 		- Pack can be multiplexing.
-- # BGP Anycast
+- # [[BGP]] Anycast
 	- **B**order **G**ateway **P**rotocol
 	- Multiple instance sharing same IP
